@@ -20,7 +20,7 @@ function stopSliding(slider1, slider2, sliderB4) {
 
     if (difference > width || difference < -width) {
         document.getElementById("restart").style.display = "block";
-        var scoreStr = "Score:";
+        var scoreStr = "Your Score : ";
         var scoreMinusOne = counter - 2;
         var score = scoreStr.concat(scoreMinusOne);
         btn.setAttribute("onclick", "");
